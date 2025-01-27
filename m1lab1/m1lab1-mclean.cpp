@@ -15,7 +15,8 @@ int main() {
     int num_apples = 10;    // int are whole numbers:1, 2, 100000, 42
     double cost_each =0.25;// twenty five cents, or $0.25.
 
-    cout << "Welcome to the " << Chayse << " apple farm!" << endl;
+    cout << "Welcome to the " << name << " apple farm!" << endl;
 
     cout << endl;
     return 0; // no errors
+}
