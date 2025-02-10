@@ -1,0 +1,36 @@
+// CSC134
+// M2Lab1 - boxes
+// Chayse
+// 2/10/25
+  
+  #include <iostream>
+using namespace std;
+  
+int main() {
+    cout << "Create Calculation Program" << end;
+    // variables
+   int length, width, height;
+
+   // Ask user what crate they want 
+   cout << "Enter the dimensions of the crate." << endl;
+   cout << "Length: ";
+   cin >> length;
+   cout << "Width ";
+   cin >> width;
+   cout << "Height: ";
+   cin >> height;
+
+
+   // Do the math
+   volume = length * width * height;
+   cost = COST_PER * volume;
+   charge = CHARGE_PER * volume;
+   profit = charge - cost; // example: $0.50 box, costs $0.23, so $0.27 profit
+
+ // print the ru=esults
+ // format the results
+ 
+ cout << " A crate " << length << " by " << width << " by " 
+ cout << "Is volume:" << volume << endl;
+
+}
