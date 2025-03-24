@@ -1,0 +1,26 @@
+// CSC 134 
+// M4T1
+// Chayse
+// 3/24/2025
+
+// This program demonstrates a simple while loop.
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    const int MIN_NUMBER = 1, // Starting number to square 
+              MAX_NUMBER = 10; // Maximum nuber to spuare 
+
+    int number = MIN_NUMBER;     // Counter
+
+    cout << "Number Number Squared\n";
+    cout << "--------------------\n";
+
+    while (number < 5)
+    {
+        cout << num << "\t\t" << (num * num) << endl;
+        num++; //Increment the counter.
+    }
+    cout << "That's all!\n"
+    return
